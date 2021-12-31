@@ -18,7 +18,7 @@ This React + Django application is an expense and income tracker that allows a u
 ### Live Testing
 
 - The backend is hosted on Heroku [on this link](https://xpence-django.herokuapp.com/)
-- This project is deployed on Heroku on [this link](https://x-press-publish.herokuapp.com).
+- This frontend is deployed on Netlify on [this link](https://cocky-bhabha-4368d3.netlify.app/).
 
 ### Local Machine testing
 
@@ -43,6 +43,16 @@ You are going to have to setup both the backend. Don't worry, it is super easy.
 ### Swagger Documentation
 
 The swagger documentation is hosted [on this link](https://xpence-django.herokuapp.com/)
+
+### Docker Documentation
+
+**N.B:** For Docker, make sure to clone the `PROD` branch from [this link](https://github.com/vsifiwe/xpence)
+
+In the React project directory, run this command `docker build -t xpence:latest .` to build the container
+
+To run the container, run this command `docker run --name xpense -d -p 3000:3000 xpence:latest`
+
+In the browser, you should be able to view the Application on localhost:3000.
 
 ### Screenshots
 
