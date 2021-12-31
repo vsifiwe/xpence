@@ -15,6 +15,11 @@ This React + Django application is an expense and income tracker that allows a u
 - NodeJS
 - NPM or Yarn
 
+### Live Testing
+
+- The backend is hosted on Heroku [on this link](https://xpence-django.herokuapp.com/)
+- This project is deployed on Heroku on [this link](https://x-press-publish.herokuapp.com).
+
 ### Local Machine testing
 
 You are going to have to setup both the backend. Don't worry, it is super easy.
@@ -39,7 +44,11 @@ You are going to have to setup both the backend. Don't worry, it is super easy.
 
 The swagger documentation is hosted [on this link](https://xpence-django.herokuapp.com/)
 
-### Deployment
+### Screenshots
 
-- The backend is hosted on Heroku [on this link](https://xpence-django.herokuapp.com/)
-- This project is deployed on Heroku on [this link](https://x-press-publish.herokuapp.com).
+![Dashboard](https://github.com/vsifiwe/xpence/blob/master/screenshots/dashboard.png?raw=true)
+![Login](https://github.com/vsifiwe/xpence/blob/master/screenshots/login.png?raw=true)
+![Register](https://github.com/vsifiwe/xpence/blob/master/screenshots/register.png?raw=true)
+![New Account](https://github.com/vsifiwe/xpence/blob/master/screenshots/new_account.png?raw=true)
+![New Expense](https://github.com/vsifiwe/xpence/blob/master/screenshots/new_expense.png?raw=true)
+![New Income](https://github.com/vsifiwe/xpence/blob/master/screenshots/new_income.png?raw=true)
