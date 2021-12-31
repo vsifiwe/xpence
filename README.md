@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# XPENCE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React + Django application is an expense and income tracker that allows a user to create an account, expense and income categories and record transactions(Expense or Transaction) and provides corresponding reports.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+### Requirements
 
-### `npm start`
+##### Backend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Python 3
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##### Frontend
 
-### `npm test`
+- NodeJS
+- NPM or Yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Local Machine testing
 
-### `npm run build`
+You are going to have to setup both the backend. Don't worry, it is super easy.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##### Backend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Clone [this](https://github.com/vsifiwe/xpence-backend) project from GitHub to your local machine
+- In the project directory, activate the environment using `source Scripts/activate` on Linux
+- Install required dependencies using `pip install -r requirements.txt`
+- After that is done, create migrations using `python manage.py makemigrations`
+- Migrate using `python manage.py migrate`
+- Every thing should be done, now you can run the server using `python manage.py runserver`
+- Open [http://localhost:8000](http://localhost:8000) to test it.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##### Frontend
 
-### `npm run eject`
+- Clone [vsifiwe/xpence (github.com)](https://github.com/vsifiwe/xpence) from GitHub to your Local machine
+- In the project directory, install dependencies using `npm install`
+- After successfully installing, run `npm run start` to run the project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Swagger Documentation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The swagger documentation is hosted [on this link](https://xpence-django.herokuapp.com/)
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The backend is hosted on Heroku [on this link](https://xpence-django.herokuapp.com/)
+- This project is deployed on Heroku on [this link](https://x-press-publish.herokuapp.com).
