@@ -34,7 +34,7 @@ function Dashboard() {
 		}
 
 		axios
-			.get("http://127.0.0.1:8000/api/user/data", {
+			.get("https://xpence-django.herokuapp.com/api/user/data", {
 				headers: {
 					Authorization: token,
 				},

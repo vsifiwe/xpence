@@ -88,7 +88,7 @@ function Register() {
 		};
 
 		axios
-			.post("http://127.0.0.1:8000/api/register", data)
+			.post("https://xpence-django.herokuapp.com/api/register", data)
 			.then((response) => {
 				navigate("/login");
 			})

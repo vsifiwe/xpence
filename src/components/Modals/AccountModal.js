@@ -30,7 +30,7 @@ function AccountModal() {
 		};
 
 		axios
-			.post("http://127.0.0.1:8000/api/account", data, {
+			.post("https://xpence-django.herokuapp.com/api/account", data, {
 				headers: {
 					Authorization: token,
 				},

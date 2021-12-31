@@ -37,7 +37,7 @@ function ExpenseModal({ categories, accounts }) {
 		};
 
 		axios
-			.post("http://127.0.0.1:8000/api/transaction/create", data, config)
+			.post("https://xpence-django.herokuapp.com/api/transaction/create", data, config)
 			.then((response) => window.location.reload())
 			.catch((error) => console.log(error));
 	};
